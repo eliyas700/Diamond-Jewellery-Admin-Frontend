@@ -1,5 +1,5 @@
 import PageTitle from "./PageTitle";
-import { FaRegMoneyBillAlt } from "react-icons/fa";
+import { BsSearch } from "react-icons/bs";
 import dollar from "../Assets/icons8-dollar-banknote-48.png"
 import orders from "../Assets/icons8-favorite-cart-48.png"
 import cube from "../Assets/icons8-sugar-cubes-48.png"
@@ -61,7 +61,49 @@ const Dashboard = () => {
 </div>
  </div>
 
- <div><SalesAnalytics></SalesAnalytics>
+ <div className="row mt-3">
+   <div className="col-7">
+   <SalesAnalytics></SalesAnalytics>
+   </div>
+ <div className="col-5 bg-white p-2 ">
+  <div className="d-flex align-items-center text-black-50">
+  <BsSearch size={22}/>
+ <h3 className="text-black-50 ms-1">Latest Search Items</h3>
+  </div>
+ <table class="table">
+   
+  <thead>
+    <tr>
+    
+      <th scope="col">Keyword </th>
+      <th scope="col">Results</th>
+      <th scope="col">Hits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Watch</td>
+      <td>19</td>
+      <td>@2120</td>
+    </tr>
+    <tr>
+      <td>Ma</td>
+      <td>20</td>
+      <td>@365</td>
+    </tr>
+    <tr>
+      <td>M0bile</td>
+      <td>20</td>
+      <td>@365</td>
+    </tr>
+    <tr>
+      <td>Samsung</td>
+      <td>20</td>
+      <td>@365</td>
+    </tr>
+  </tbody>
+</table>
+ </div>
  </div>
   </div>;
 };

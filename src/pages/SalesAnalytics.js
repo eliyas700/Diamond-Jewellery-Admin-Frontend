@@ -25,7 +25,7 @@ const data = [
     amt: 2210,
   },
   {
-    name: "Wednesday",
+    name: "Wed",
     uv: 2000,
     pv: 9800,
     amt: 2290,
@@ -59,11 +59,11 @@ const data = [
 const SalesAnalytics = () => {
   return (
     <div className="bg-white p-3">
-      <div className=" d-flex my-2 align-items-center">
+      <div className=" text-black-50 d-flex my-2 align-items-center">
         <AiOutlineBarChart size={32} />
         <h3 className="ms-2">Sales Analytics</h3>
       </div>
-      <BarChart width={730} height={250} data={data}>
+      <BarChart width={530} height={250} data={data}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="name" />
         <YAxis />
