@@ -4,8 +4,9 @@ import dollar from "../Assets/icons8-dollar-banknote-48.png"
 import orders from "../Assets/icons8-favorite-cart-48.png"
 import cube from "../Assets/icons8-sugar-cubes-48.png"
 import users from "../Assets/icons8-users-48.png"
+import SalesAnalytics from "./SalesAnalytics";
 const Dashboard = () => {
-  return <div > 
+  return <div className="w-100"> 
  <PageTitle></PageTitle>
  <div style={{backgroundColor:"#F1F3F7"}} className="p-3">
    <h2 className="text-black-50 my-2">Dashboard</h2>
@@ -58,6 +59,9 @@ const Dashboard = () => {
     </div>
   </div>
 </div>
+ </div>
+
+ <div><SalesAnalytics></SalesAnalytics>
  </div>
   </div>;
 };

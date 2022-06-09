@@ -3,10 +3,7 @@ import { ImDisplay } from "react-icons/im";
 import { FaUserCircle } from "react-icons/fa";
 const PageTitle = () => {
   return (
-    <div
-      style={{ width: "82vw" }}
-      className="text-black-50 d-flex align-items-center justify-content-between  px-5"
-    >
+    <div className="text-black-50 d-flex align-items-center justify-content-between  px-5 w-100 bg-white py-2">
       <div
         style={{ width: "110px" }}
         className="d-flex align-items-center text-black-50 justify-content-between"
