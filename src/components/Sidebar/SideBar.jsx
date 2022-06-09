@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { FaBars, FaPaintBrush, FaLock, FaMoneyBill, FaUser } from "react-icons/fa";
+import { FaBars, FaPaintBrush } from "react-icons/fa";
 import { GoGraph } from "react-icons/go";
 import { MdSettingsSuggest } from "react-icons/md";
 import { BiAnalyse, BiSearch } from "react-icons/bi";
