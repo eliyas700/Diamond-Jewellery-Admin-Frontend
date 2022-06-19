@@ -11,6 +11,7 @@ import Order from "./pages/Order";
 import Saved from "./pages/Saved";
 import Setting from "./pages/Setting";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Media from "./pages/Media";
 function App() {
   return (
     <Router>
@@ -21,6 +22,7 @@ function App() {
           <Route path="/messages" element={<Messages />} />
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/file-manager" element={<FileManager />} />
+          <Route path="/media" element={<Media></Media>}></Route>
           <Route path="/order" element={<Order />} />
           <Route path="/saved" element={<Saved />} />
           <Route path="/settings" element={<Setting />} />
