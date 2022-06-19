@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Table } from 'react-bootstrap';
-import MediaModal from './MediaModal';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 const Media = () => {
@@ -76,7 +75,7 @@ const Media = () => {
       </tbody>
     </Table>
     
-    <MediaModal/>
+ 
         </div>
     );
 };

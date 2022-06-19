@@ -25,8 +25,8 @@ const routes = [
     icon: <FaCube />,
     subRoutes: [
       {
-        path: "/products/catalog",
-        name: "Catalog ",
+        path: "/products",
+        name: "Products ",
        
       },
       {
