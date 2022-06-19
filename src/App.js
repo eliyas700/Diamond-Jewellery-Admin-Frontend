@@ -28,7 +28,7 @@ function App() {
           <Route path="/products" element={<Products />}></Route>
           <Route path="/users" element={<Users />}></Route>
           <Route path="/categories" element={<Categories />}></Route>
-          <Route path="/order" element={<Order />} />
+          <Route path="/orders" element={<Order />} />
           <Route path="/saved" element={<Saved />} />
           <Route path="/settings" element={<Setting />} />
 

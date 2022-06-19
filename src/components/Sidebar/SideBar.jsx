@@ -64,7 +64,7 @@ const routes = [
     icon: <FaDollarSign />,
     subRoutes: [
       {
-        path: "/sales/orders",
+        path: "/orders",
         name: "Orders ",
       },
       {
