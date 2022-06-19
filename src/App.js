@@ -25,6 +25,7 @@ function App() {
           <Route path="/file-manager" element={<FileManager />} />
           <Route path="/media" element={<Media></Media>}></Route>
           <Route path="/products" element={<Products />}></Route>
+          <Route path="/users" element={<Users />}></Route>
           <Route path="/order" element={<Order />} />
           <Route path="/saved" element={<Saved />} />
           <Route path="/settings" element={<Setting />} />

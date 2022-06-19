@@ -3,12 +3,12 @@ import { FaBars, FaPaintBrush } from "react-icons/fa";
 import { GoGraph } from "react-icons/go";
 import { MdSettingsSuggest } from "react-icons/md";
 import { BiAnalyse, BiSearch } from "react-icons/bi";
-import { FaTachometerAlt,FaCube,FaDollarSign,FaUsers } from "react-icons/fa";
-import { BiMenu} from "react-icons/bi";
-import { GiNotebook,GiWorld} from "react-icons/gi";
+import { FaTachometerAlt, FaCube, FaDollarSign, FaUsers } from "react-icons/fa";
+import { BiMenu } from "react-icons/bi";
+import { GiNotebook, GiWorld } from "react-icons/gi";
 import { IoIosFlash } from "react-icons/io";
 import { AiFillCamera, AiFillTool } from "react-icons/ai";
-import { BsCartCheck,BsTags } from "react-icons/bs";
+import { BsCartCheck, BsTags } from "react-icons/bs";
 
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -27,45 +27,36 @@ const routes = [
       {
         path: "/products",
         name: "Products ",
-       
       },
       {
         path: "/products/categories",
         name: "Categories",
-      
       },
       {
         path: "/products/brands",
         name: "Brands",
-     
       },
       {
         path: "/products/attributes",
         name: "Attributes",
-     
       },
       {
         path: "/products/attributeSets",
         name: "Attribute Sets",
-     
       },
       {
         path: "/products/options",
         name: "Options",
-     
       },
       {
         path: "/products/tags",
         name: "Tags",
-     
       },
       {
         path: "/products/reviews",
         name: "Reviews",
-     
       },
     ],
-    
   },
   {
     path: "/sales",
@@ -75,13 +66,11 @@ const routes = [
       {
         path: "/sales/orders",
         name: "Orders ",
-      
       },
       {
         path: "/sales/transactions",
         name: "Transactions ",
-      
-      }
+      },
     ],
   },
   {
@@ -89,7 +78,7 @@ const routes = [
     name: "Flash Sales",
     icon: <IoIosFlash />,
   },
-  
+
   {
     path: "/coupons",
     name: "Coupons",
@@ -100,7 +89,7 @@ const routes = [
     name: "pages",
     icon: <GiNotebook />,
   },
-  
+
   {
     path: "/media",
     name: "Media",
@@ -115,18 +104,6 @@ const routes = [
     path: "/users",
     name: "Users",
     icon: <FaUsers />,
-    subRoutes: [
-      {
-        path: "/users/users",
-        name: "Users ",
-      
-      },
-      {
-        path: "/users/roles",
-        name: "Roles ",
-      
-      }
-    ],
   },
   {
     path: "/localization",
@@ -136,13 +113,11 @@ const routes = [
       {
         path: "/localization/transactions",
         name: "Transactions ",
-      
       },
       {
         path: "/localization/currency",
         name: "Currency Rates ",
-      
-      }
+      },
     ],
   },
   {
@@ -153,30 +128,28 @@ const routes = [
       {
         path: "/users/users",
         name: "Sliders ",
-      
       },
       {
         path: "/users/roles",
         name: "Store Front ",
-      
-      }
+      },
     ],
   },
   {
-    path:"/tools",
-    name:"Tools",
-    icon:<AiFillTool/>
+    path: "/tools",
+    name: "Tools",
+    icon: <AiFillTool />,
   },
   {
-    path:"/reports",
-    name:"Reports",
-    icon:<GoGraph/>
+    path: "/reports",
+    name: "Reports",
+    icon: <GoGraph />,
   },
   {
-    path:"/settings",
-    name:"Settings",
-    icon:<MdSettingsSuggest/>
-  }
+    path: "/settings",
+    name: "Settings",
+    icon: <MdSettingsSuggest />,
+  },
 ];
 
 const SideBar = ({ children }) => {
