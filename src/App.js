@@ -13,6 +13,7 @@ import Setting from "./pages/Setting";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Media from "./pages/Media";
 import Products from "./pages/Products";
+import Categories from "./pages/Categories";
 function App() {
   return (
     <Router>
@@ -26,6 +27,7 @@ function App() {
           <Route path="/media" element={<Media></Media>}></Route>
           <Route path="/products" element={<Products />}></Route>
           <Route path="/users" element={<Users />}></Route>
+          <Route path="/categories" element={<Categories />}></Route>
           <Route path="/order" element={<Order />} />
           <Route path="/saved" element={<Saved />} />
           <Route path="/settings" element={<Setting />} />

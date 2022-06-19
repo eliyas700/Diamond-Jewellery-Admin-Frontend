@@ -29,7 +29,7 @@ const routes = [
         name: "Products ",
       },
       {
-        path: "/products/categories",
+        path: "/categories",
         name: "Categories",
       },
       {
