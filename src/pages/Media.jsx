@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Table } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
+import PageTitle from "./PageTitle";
 const Media = () => {
   const [show, setShow] = useState(false);
 
@@ -10,6 +11,7 @@ const Media = () => {
 
   return (
     <div className="my-3">
+      <PageTitle></PageTitle>
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item ">
